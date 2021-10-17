@@ -776,7 +776,10 @@ padding-bottom: 94px;}
     transform: translateY(0);
     opacity: 1;
 }
-
+.foto-gallery:focus .foto-link-text {
+    transform: translateY(0);
+    opacity: 1;
+}
 .btn-menu-portfolio:hover,
 .btn-menu-portfolio:focus {
     color: var(--adress-color);
