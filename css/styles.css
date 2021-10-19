@@ -197,6 +197,9 @@ a.logo{
 .last{margin-right: 0px;}
 
 .hero{
+    display: block;
+    max-width: 100%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     
@@ -613,6 +616,7 @@ margin-bottom: 30px;}
 }
 .client-company{
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
     margin-right: 30px;
@@ -642,14 +646,19 @@ margin-bottom: 30px;}
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client-company:hover,
+/* .client-company:hover,
 .client-company:focus{
     fill: #2196F3;
     border: 1px solid #2196F3;
+    fill: var(--hover-effect-color);
+    cursor:pointer;
     
-}
+} */
 .client-link:hover,
-.client-link:focus{fill: var(--hover-effect-color);
+.client-link:focus{
+    fill: #2196F3;
+    border: 1px solid #2196F3;
+    fill: var(--hover-effect-color);
 cursor:pointer;
 }
 
